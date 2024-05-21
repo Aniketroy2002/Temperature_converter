@@ -1,0 +1,147 @@
+*{
+    margin: 2rem 2rem;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    height: auto;
+    width: 100%;
+    border: 3px solid none;
+    box-shadow: 0 0 10px  rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    overflow-x: auto;
+}
+.box h1{
+    text-align: center;
+    border-bottom: 2px solid black;
+}
+.value{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.value input{
+    height: 4vh;
+    display: block;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.flex{
+    display: flex;
+}
+.degree{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+.degree select{
+    height: 4vh;
+    display: block;
+    border: none;
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.button{
+    padding-right: 3.9rem;
+}
+#btn{
+    height: 3rem;
+    width: 100%;
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    background-color: #007AFF;
+}
+
+#btn:hover{
+    background-color: #0461c5;
+    cursor: pointer;
+}
+.result{
+    border-bottom: 2px solid black;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+@media (max-width:700px){
+    *{
+        margin: 2rem 4px;
+    }
+    .box{
+        height: auto;
+        width: 100%;
+        border: 3px solid none;
+        box-shadow: 0 0 10px  rgba(0, 0, 0, 0.8);
+        border-radius: 10px;
+    }
+    .box h1{
+        text-align: center;
+        border-bottom: 2px solid black;
+        font-size: 1.5rem;
+    }
+    .value{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .value input{
+        height: 4vh;
+        width: 10rem;
+        display: block;
+        border: none;
+        border-bottom: 2px solid black;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .flex{
+        display: block;
+    }
+    .degree{
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .degree select{
+        height: 4vh;
+        display: block;
+        border: none;
+        border-bottom: 2px solid black;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 700;
+    }
+    .button{
+        padding: 2rem;
+    }
+    #btn{
+        height: 3rem;
+        width: 100%;
+        font-size: 1.2rem;
+        color: white;
+        font-weight: 700;
+        border-radius: 10px;
+        background-color: #007AFF;
+    }
+    
+    #btn:hover{
+        background-color: #0461c5;
+        cursor: pointer;
+    }
+    
+    .result{
+        border-bottom: 2px solid black;
+        text-align: center;
+        font-size: 0.9rem;
+        font-weight: 700;
+    }
+}
